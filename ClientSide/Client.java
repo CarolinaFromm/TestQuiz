@@ -6,7 +6,7 @@ import java.net.Socket;
 
 // Client klassen hanterar kommunikationen mellan servern för quizkampen.
 // Läser av svar från Responsklassen från servern och skickar tillbaka data. Delegerar presentation och användarinteraktion till QuizPanel
-// Använder do-while loop för att tillåta att spelet startas om
+// Använder do-while loop för att tillåta att spelet startas om, om relayable är true
 
 // hanterar klientens funktionalitet inkl. kommunikation med server
 public class Client {
